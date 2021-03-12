@@ -1,7 +1,8 @@
 ---
-layout: referencepage
+layout: page
 title:  "Features"
 permalink: "/features/"
+published: false
 ---
 
 <figure>

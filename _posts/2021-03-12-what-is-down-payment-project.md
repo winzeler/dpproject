@@ -3,9 +3,9 @@ layout: post
 date: 2021-03-12 8:00
 title:  "What is Down Payment Project?"
 mood: speechless
+published: true
 category: 
 - blog
-published: true
 ---
 
 Down Payment Project is a blog, vlog, podcast, journal, content archive... what ever you want to call it...  It's the real-time story of our journey at building [downpayment.gift](https://downpayment.gift/), a new crowdfunding and gift registry for first-time home buyers and wedding couples to raise money for the down payment on a house.
