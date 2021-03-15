@@ -11,16 +11,17 @@
     <meta name="description" property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 
-    <img style="display:none" src="https://placid.app/u/0zmbcpm7f?img=%24DEFAULT%24&headline='{{ page.title }}'&author=%24DEFAULT%24&author-img=%24DEFAULT%24&author-byline=%24DEFAULT%24" data-pin-description="Pin Description" data-pin-url="{{page.url | prepend: site.baseurl | prepend: site.url}}"/>
+    
+    <img style="display:none" src="https://placid.app/u/0zmbcpm7f?img=%24DEFAULT%24&headline={{ page.title | url_encode }}{% unless page.title %}{{ site.name | url_encode }}{% if site.job_title %}{{ " &mdash; " | url_encode }}{{site.job_title | url_escode }}{% endif %}{% endunless %}&author=%24DEFAULT%24&author-img=%24DEFAULT%24&author-byline=%24DEFAULT%24" data-pin-description="Pin Description" data-pin-url="{{page.url | prepend: site.baseurl | prepend: site.url}}"/>
  
-    <meta property="twitter:image" content="https://placid.app/u/ebayqet1q?img=%24DEFAULT%24&headline='{{ page.title }}'&author=%24DEFAULT%24&author-img=%24DEFAULT%24&author-byline=%24DEFAULT%24"/>
+    <meta property="twitter:image" content="https://placid.app/u/ebayqet1q?img=%24DEFAULT%24&headline={{ page.title | url_encode }}{% unless page.title %}{{ site.name | url_encode }}{% if site.job_title %}{{ " &mdash; " | url_encode }}{{site.job_title | url_encode }}{% endif %}{% endunless %}&author=%24DEFAULT%24&author-img=%24DEFAULT%24&author-byline=%24DEFAULT%24"/>
     <meta name="twitter:card" content="summary_large_image">
     {% if site.twitter_handler %}
     <meta name="twitter:site" content="@{{site.twitter_handler}}" />
     {% endif %}
     <meta property="og:url" content="{{page.url | prepend: site.baseurl | prepend: site.url}}" />
 
-    <meta property="og:image" content="https://placid.app/u/0zmbcpm7f?img=%24DEFAULT%24&headline='{{ page.title }}'&author=%24DEFAULT%24&author-img=%24DEFAULT%24&author-byline=%24DEFAULT%24"/>
+    <meta property="og:image" content="https://placid.app/u/0zmbcpm7f?img=%24DEFAULT%24&headline={{ page.title | url_encode }}{% unless page.title %}{{ site.name | url_encode}}{% if site.job_title %}{{ " &mdash; " | url_encode }}{{site.job_title | url_encode }}{% endif %}{% endunless %}&author=%24DEFAULT%24&author-img=%24DEFAULT%24&author-byline=%24DEFAULT%24"/>
     <meta property="og:image:height" content="630"/>
     <meta property="og:image:width" content="1200"/>
 
