@@ -48,7 +48,7 @@ fixed_sidebar: 1
 
 # Defaults
 defaults:
-  -
+  - 
     scope:
       path: ""
       type: "posts"
@@ -61,6 +61,7 @@ baseurl: ""
 
 # Includes
 include: ["_pages"]
+#include: ["_updates"]
 
 # Outputting
 permalink: /:categories/:title
@@ -78,4 +79,5 @@ excerpt_separator: <!--more-->
 sass:
   sass_dir: assets/partials
   style: compressed
+
 

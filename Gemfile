@@ -22,4 +22,8 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     #gem 'wdm', '>= 0.1.0'
     gem "listen"
+    #gem 'jekyll-airtable'
+    gem 'jekyll-contentful-data-import'
+    gem 'dotenv'
+    gem 'jekyll-liquify'
 end
