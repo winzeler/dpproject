@@ -8,6 +8,13 @@ published: true
 category: 
 - blog
 ---
+		<!-- {% include mapsvg.html %} -->
+		<link href="/mapsvg/css/mapsvg.css" rel="stylesheet">
+		<link href="/mapsvg/css/nanoscroller.css" rel="stylesheet">
+		<script src="/mapsvg/js/jquery.js"></script>
+		<script src="/mapsvg/js/jquery.mousewheel.min.js"></script>
+		<script src="/mapsvg/js/jquery.nanoscroller.min.js"></script>
+		<script src="/mapsvg/js/mapsvg.min.js"></script>
 
 
 *We did some __exhaustive__ research using social media data to find the approximate number of Engaged and Newly Engaged prospects exist in the US on major social media platforms and this is what we learned.*
