@@ -8,7 +8,6 @@ category:
 - blog
 ---
 
-# Why did you create downpayment.gift?
 
 *A little back story...*
 
@@ -21,6 +20,8 @@ We were in Santa Rosa, CA in Sonoma County, about 45-50 minutes north of San Fra
 At the shows we would run giveaways, raffles, serve wine if allowed and collect surveys (lead forms).
 
 These marketing efforts proved to be great way to build a database of prospects with name, phone, address and such.  The survey component allowed us to segment the leads between those that just wanted to win the raffle (bedandbreakfast.com gift cards) and those that might be interested in buying a house sooner rather than later.   The reception of a mortgage company at these wedding shows proved better than we expected.
+
+<!--more-->
 
 ![Wedding Expo in Santa Rosa, 2015](/assets/images/frost_wedding_show_crop.jpg){:height="50%" width="50%"}
 <br/>
