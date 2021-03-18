@@ -15,7 +15,7 @@ category:
 
 *In late 2019, I put together a PDF about the Mortgage Guidelines for Bridal Gift Funds, aka Wedding Gift for Down Payment and Closing.  I tried to give the history of this guideline area in FHA and Conventional, up to the most recent 2017 Freddie Mac guidelines.  This is a brief copy-paste of that effort.*  
 
-## Wedding Gift Funds - Mortgage Guideslines Walkthrough
+## Walkthrough Video
 
 I walked through this a PDF on Wedding Gift Funds guidelines at length here:
 
