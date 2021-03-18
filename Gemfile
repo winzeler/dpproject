@@ -26,4 +26,5 @@ group :jekyll_plugins do
     gem 'jekyll-contentful-data-import'
     gem 'dotenv'
     gem 'jekyll-liquify'
+    gem 'jekyll-youtube'
 end

@@ -1,4 +1,12 @@
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NHW93R');</script>
+    <!-- End Google Tag Manager -->
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,14 +22,6 @@
     
     <img style="display:none" src="https://placid.app/u/0zmbcpm7f?img=%24DEFAULT%24&headline={{ page.title | url_encode }}{% unless page.title %}{{ site.name | url_encode }}{% if site.job_title %}{{ " &mdash; " | url_encode }}{{site.job_title | url_escode }}{% endif %}{% endunless %}&author=%24DEFAULT%24&author-img=%24DEFAULT%24&author-byline=%24DEFAULT%24" data-pin-description="Pin Description" data-pin-url="{{page.url | prepend: site.baseurl | prepend: site.url}}"/>
  
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5NHW93R');</script>
-    <!-- End Google Tag Manager -->
-
     <meta property="twitter:image" content="https://placid.app/u/ebayqet1q?img=%24DEFAULT%24&headline={{ page.title | url_encode }}{% unless page.title %}{{ site.name | url_encode }}{% if site.job_title %}{{ " &mdash; " | url_encode }}{{site.job_title | url_encode }}{% endif %}{% endunless %}&author=%24DEFAULT%24&author-img=%24DEFAULT%24&author-byline=%24DEFAULT%24"/>
     <meta name="twitter:card" content="summary_large_image">
     {% if site.twitter_handler %}
@@ -47,5 +47,20 @@
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-
+    <script src="{{ site.baseurl | prepend: site.url }}/assets/js/jquery-1.12.2.min.js"></script>
+    <script src="{{ site.baseurl | prepend: site.url }}/assets/js/backtotop.js"></script>
+    <script src="{{ site.baseurl | prepend: site.url }}/assets/js/lunr.min.js"></script>
+    <script src="{{ site.baseurl | prepend: site.url }}/assets/js/lunr-feed.js"></script>
+    <script src="{{ site.baseurl | prepend: site.url }}/assets/js/jquery.fitvids.js"></script>
+    <script src="{{ site.baseurl | prepend: site.url }}/assets/js/svg4everybody.min.js"></script>
+    <script src="{{ site.baseurl | prepend: site.url }}/assets/js/scripts.js"></script>
+    
+    <link href="/mapsvg/css/mapsvg.css" rel="stylesheet">
+    <link href="/mapsvg/css/nanoscroller.css" rel="stylesheet">
+    <!-- script src="/mapsvg/js/jquery.js"></script -->
+    <script src="/mapsvg/js/jquery.mousewheel.min.js"></script>
+    <script src="/mapsvg/js/jquery.nanoscroller.min.js"></script>
+    <script src="/mapsvg/js/mapsvg.min.js"></script>
+    
+    
 </head>
