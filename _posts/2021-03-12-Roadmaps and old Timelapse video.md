@@ -15,13 +15,14 @@ category:
 
 It's our plan to continually push out new updates, marketing and follow a public roadmap.  This DPP, Down Payment Project, blog is all about building in public.
 
-[Public Roadmap](https://roadmap.downpayment.gift/downpaymentgift)
+[Public Roadmap](https://roadmap.downpayment.gift/downpaymentgift){:target="_blank"}
 
-[Partner Roadmap](https://roadmap.downpaymentproject.com/)
+[Partner Roadmap](https://roadmap.downpaymentproject.com/){:target="_blank"}
 
 Click on Ideas to submit features or suggestions.  The great thing about public "roadmaps" is that you can influence the future features and marketing content we produce.
 
-### Roadmap and marketing Updates
+<!--more-->
+
 
 I am trying to put honest effort into marketing and content updates for the product, not just the code and the tool itself... but the content we ship out to the world for end-users and partners. Here's a "behind the scenes" (BTS) look at what goes on to generate a new client demo video, upload it and push code changes.
 
