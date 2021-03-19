@@ -60,6 +60,11 @@ defaults:
     values:
       sitemap:         false
 
+    scope:
+      path:            "docs/**"
+    values:
+      sitemap:         false
+
 # Serving
 url: "https://downpaymentproject.com"
 baseurl: ""
