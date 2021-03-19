@@ -55,6 +55,11 @@ defaults:
     values:
       comments: "true"
 
+    scope:
+      path:            "mapsvg/**"
+    values:
+      sitemap:         false
+
 # Serving
 url: "https://downpaymentproject.com"
 baseurl: ""
