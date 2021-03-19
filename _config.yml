@@ -48,20 +48,19 @@ fixed_sidebar: 1
 
 # Defaults
 defaults:
-  - 
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       comments: "true"
-
-    scope:
-      path:            "mapsvg/**"
+  - scope:
+      path: "mapsvg/**"
+      type: ""
     values:
       sitemap:         false
-
-    scope:
-      path:            "docs/**"
+  - scope:
+      path: "docs/**"
+      type: ""
     values:
       sitemap:         false
 
