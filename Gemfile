@@ -20,6 +20,7 @@ gem "jekyll", "3.8.4"
 group :jekyll_plugins do
     gem "jekyll-paginate", "~> 1.1.0"
     gem 'jekyll-seo-tag'
+    gem 'jekyll-sitemap', '1.3.1'
     #gem 'wdm', '>= 0.1.0'
     gem "listen"
     #gem 'jekyll-airtable'
