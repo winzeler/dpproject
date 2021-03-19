@@ -1,8 +1,8 @@
 ---
 layout: redirect
-title: Roadmap
+title: Public Roadmap
 redirect_to: https://roadmap.downpayment.gift/downpaymentgift
 permalink: /roadmap
-published: false
+published: true
 ---
 
