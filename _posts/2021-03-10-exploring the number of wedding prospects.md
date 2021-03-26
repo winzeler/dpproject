@@ -4,6 +4,7 @@ date: 2021-03-10 8:00
 title:  Exploring the wedding market, the total market for down payment gift registries
 mood: speechless
 published: true
+sticky: false
 category: 
 - blog
 ---

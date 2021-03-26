@@ -19,6 +19,10 @@ layout: default
         <h2 itemprop="name headline">{{ page.title }}</h2>
     </header>
 
+    {% if post.sticky %}
+    <span class="sticky"><i class="fa fa-thumb-tack" aria-hidden="true"></i></span>
+    {% endif %}
+  
     <div class="post-content">
         {{ page.content }}
     </div>

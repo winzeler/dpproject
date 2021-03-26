@@ -28,4 +28,5 @@ group :jekyll_plugins do
     gem 'dotenv'
     gem 'jekyll-liquify'
     gem 'jekyll-youtube'
+    gem 'jekyll-stickyposts'
 end
