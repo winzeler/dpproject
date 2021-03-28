@@ -15,9 +15,9 @@ category:
 
 It's our plan to continually push out new updates, marketing and follow a public roadmap.  This DPP, Down Payment Project, blog is all about building in public.
 
-[Public Roadmap](https://roadmap.downpayment.gift/downpaymentgift){:target="_blank"}
+[Public Roadmap](https://roadmap.downpayment.gift/){:target="_blank"}
 
-[Partner Roadmap](https://roadmap.downpaymentproject.com/){:target="_blank"}
+[Partner Roadmap](https://roadmap.downpaymentproject.com/partners){:target="_blank"}
 
 Click on Ideas to submit features or suggestions.  The great thing about public "roadmaps" is that you can influence the future features and marketing content we produce.
 

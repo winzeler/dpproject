@@ -1,8 +1,8 @@
 ---
 layout: redirect
-title: Roadmap
-redirect_to: https://roadmap.downpayment.gift/downpaymentgift-partners
-permalink: /roadmap-partners
+title: Partner Roadmap
+redirect_to: https://roadmap.downpayment.gift/partners
+permalink: /partner-roadmap
 published: true
 ---
 
