@@ -81,7 +81,7 @@ The FAQ is that pre-sales content that makes such a difference.  In the new site
 This is a greyed out field in the client account create page.  At the first version, this is a field that is not stored in the database.  We pull from configuration or from parameters on the URL and put the code string in a greyed, uneditable text box.  The text below the box refers to the INVITATION_CODE enabling the zero fees option.  In the long run, this INVITATION_CODE may be used differently.
 
 <figure class="alignright">
-    <img width="" src="/assets/images/screenshots/INVITATION_CODE.png" />
+    <img width="250" src="/assets/images/screenshots/INVITATION_CODE.png" />
     <figcaption>the Partner Roadmap is where most of the action is, but we link only from inside the product and help docs</figcaption>
 </figure>
 
