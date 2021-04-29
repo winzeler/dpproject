@@ -10,6 +10,8 @@ layout: post
 
 Week 9
 
+<!--more-->
+
 New Sign Up flow
 
 New User Form
