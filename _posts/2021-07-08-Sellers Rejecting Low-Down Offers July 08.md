@@ -1,6 +1,8 @@
 ---
 published: true
-category: updates
+category: 
+- news
+- editorial
 mood: speechless
 date: 2021-07-08
 title: Sellers Rejecting Low-Down Offers - What can be done - July 8

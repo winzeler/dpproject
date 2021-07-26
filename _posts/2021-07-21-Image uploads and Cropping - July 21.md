@@ -1,6 +1,8 @@
 ---
 published: true
-category: updates
+category: 
+ - updates
+ - features
 mood: speechless
 date: 2021-07-21
 title: Image uploads and Cropping - July 21
